@@ -41,7 +41,7 @@ ul {
     font-weight: 700;
 }
 
-.right-menu {
+.menu {
     text-align: right;
 }
 
@@ -52,6 +52,10 @@ ul {
 
 .menu ul li:last-child {
     padding-right: 0;
+}
+
+.burger-toggle {
+    text-align: right;
 }
 
 /*end nav*/
@@ -95,12 +99,12 @@ ul {
     font-weight: 700;
 }
 
-.portfolio .container>[class*="col-"] {
+.portfolio .container>.row>[class*="col-"] {
     height: 200px;
     margin-bottom: 20px;
 }
 
-.portfolio .container>[class*="col-"]>[class*="col_"] {
+.portfolio .container>.row>[class*="col-"]>[class*="col_"] {
     background-color: #2c3e50;
     height: 100%;
     border-radius: 5px;
@@ -127,7 +131,7 @@ ul {
     text-transform: uppercase;
 }
 
-.contact-me .container-fluid>[class*="col-"] {
+.contact-me .container-fluid>.row>[class*="col-"] {
     text-align: left;
 }
 
