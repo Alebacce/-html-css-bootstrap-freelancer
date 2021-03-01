@@ -1,22 +1,47 @@
+/*COMMON*/
+body {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.small-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.fa-star {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.page-button {
+    background-color: #1abc9c;
+    color: white;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+/*HEADER*/
+/*nav*/
 .nav-top {
     padding: 20px 0;
     background-color: #2c3e50;
     color: white;
+    text-align: left;
     text-transform: uppercase;
 }
 
 .nav-top h2 {
     margin: 0;
+    font-size: 25px;
     font-weight: 700;
 }
 
 .right-menu {
     text-align: right;
-    line-height: 32px;
-}
-
-.menu ul {
-    list-style-type: none;
 }
 
 .menu ul li {
@@ -27,3 +52,70 @@
 .menu ul li:last-child {
     padding-right: 0;
 }
+
+/*end nav*/
+
+/*jumbotron*/
+.jumbotron {
+    background-color: #1abc9c;
+    color: white;
+    text-transform: uppercase;
+}
+
+.jumbotron-inside .square {
+    background-color: #2c3e50;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.jumbotron-inside h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.jumbotron-inside p {
+    font-size: 14px;
+}
+
+/*end jumbotron*/
+/*END HEADER*/
+
+/*MAIN*/
+/*portfolio*/
+.portfolio {
+    color: #2c3e50;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.portfolio h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.portfolio .container>[class*="col-"] {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.portfolio .container>[class*="col-"]>[class*="col_"] {
+    background-color: #2c3e50;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/*about*/
+.about {
+    background-color: #1abc9c;
+    color: white;
+    padding: 20px 0;
+}
+
+.about h2 {
+    text-transform: uppercase;
+}
+
+
+
+/*END MAIN*/
