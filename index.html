@@ -71,9 +71,9 @@
                             <div class="star">
                                 <i class="fas fa-star"></i>
                             </div>
-                            <p>
+                            <span>
                                 Graphic Artist - Web Designer - Illustrator
-                            </p>                                   
+                            </span>                                   
                         </div>
                     </div>
                 </div>
@@ -176,6 +176,8 @@
                         <div class="text-left">
                             <div class="row">
                                 <div class="col-xs-12">
+
+                                    <!--begin form-->
                                     <form>
                                         <div class="form-group">
                                             <label for="name"></label>
@@ -195,11 +197,12 @@
                                         <textarea class="form-control page-form" rows="8" placeholder="Message"></textarea>
                                         
                                         <div class="button-box">
-                                        <a class="btn page-button" href="#" role="button">
-                                            Send
-                                        </a>
+                                            <a class="btn page-button" href="#" role="button">
+                                                Send
+                                            </a>
                                         </div>    
                                     </form>
+                                    <!--end form-->
                                 </div>
                             </div>
                         </div>
@@ -211,28 +214,79 @@
 
     <!--FOOTER-->
     <footer>
-        <div class="footer-menu">
+        <div class="section-padding">
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor pariatur, provident sunt dolorem distinctio
-                    </div>
+                <div class="footer-menu">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4">
 
-                    <div class="col-xs-12 col-sm-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor pariatur, provident sunt dolorem distinctio
-                    </div>
+                            <!--Location-->
+                            <div class="footer-items-container">
+                                <div class="footer-title">
+                                Location
+                                </div>
 
-                    <div class="col-xs-12 col-sm-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor pariatur, provident sunt dolorem distinctio
+                                <div class="footer-content">
+                                2215 John Daniel Drive Clark, MO 54243
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <!--social links-->
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="footer-items-container">
+                                <div class="footer-title">
+                                Around the web
+                                </div>
+
+                                <div class="footer-content">
+                                    <ul class="footer-social-links-container">
+                                        <li class="footer-link-circle">
+                                            <a class="footer-social-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+
+                                        <li class="footer-link-circle">
+                                            <a class="footer-social-link" href="#"><i class="fab fa-google-plus-g"></i>    </a>
+                                        </li>
+
+                                        <li class="footer-link-circle">
+                                            <a class="footer-social-link" href="#"><i class="fab fa-twitter"></i></a>
+                                        </li>
+
+                                        <li class="footer-link-circle">
+                                            <a class="footer-social-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-4">
+                            <!--About Freelancer-->
+                            <!--Ho aggiutno last alla classe per far capire che è lo stesso wrapper ma è l'ultimo
+                            e non gli serve margin, per cui invece di aggiungere mille selettori
+                            lo racchiudio in un wrapper descrittivo che automaticamente non ha margin-bottom-->
+                            <div class="footer-items-container-last">
+                                <div class="footer-title">
+                                About Freelancer
+                                </div>
+
+                                <div class="footer-content">
+                                    Freelance is a free to use, open source Bootstrap theme created by <a class="footer-link" href="https://startbootstrap.com/">Start Bootstrap</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
             </div>
         </div>
-
-        <div class="copyright">
-            <p>
+        
+        <!--Copyright-->
+        <div class="copyright section-padding">
+            <span>
                 Copyright &copy; Your Website 2021
-            </p>
+            </span>
         </div>
 
     </footer>
